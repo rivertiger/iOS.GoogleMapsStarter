@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5AD3751909B5D70073768F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3741909B5D70073768F /* Foundation.framework */; };
+		7E5AD3771909B5D70073768F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3761909B5D70073768F /* CoreGraphics.framework */; };
+		7E5AD3791909B5D70073768F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3781909B5D70073768F /* UIKit.framework */; };
+		7E5AD37F1909B5D70073768F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD37D1909B5D70073768F /* InfoPlist.strings */; };
+		7E5AD3811909B5D70073768F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AD3801909B5D70073768F /* main.m */; };
+		7E5AD3851909B5D70073768F /* JNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AD3841909B5D70073768F /* JNAppDelegate.m */; };
+		7E5AD3881909B5D70073768F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD3861909B5D70073768F /* Main.storyboard */; };
+		7E5AD38B1909B5D70073768F /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AD38A1909B5D70073768F /* JNViewController.m */; };
+		7E5AD38D1909B5D70073768F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD38C1909B5D70073768F /* Images.xcassets */; };
+		7E5AD3941909B5D70073768F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3931909B5D70073768F /* XCTest.framework */; };
+		7E5AD3951909B5D70073768F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3741909B5D70073768F /* Foundation.framework */; };
+		7E5AD3961909B5D70073768F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5AD3781909B5D70073768F /* UIKit.framework */; };
+		7E5AD39E1909B5D70073768F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AD39C1909B5D70073768F /* InfoPlist.strings */; };
+		7E5AD3A01909B5D70073768F /* GoogleMapsStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AD39F1909B5D70073768F /* GoogleMapsStarterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5AD3971909B5D70073768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5AD3691909B5D70073768F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5AD3701909B5D70073768F;
+			remoteInfo = GoogleMapsStarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5AD3711909B5D70073768F /* GoogleMapsStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5AD3741909B5D70073768F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E5AD3761909B5D70073768F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E5AD3781909B5D70073768F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E5AD37C1909B5D70073768F /* GoogleMapsStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleMapsStarter-Info.plist"; sourceTree = "<group>"; };
+		7E5AD37E1909B5D70073768F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E5AD3801909B5D70073768F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E5AD3821909B5D70073768F /* GoogleMapsStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleMapsStarter-Prefix.pch"; sourceTree = "<group>"; };
+		7E5AD3831909B5D70073768F /* JNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNAppDelegate.h; sourceTree = "<group>"; };
+		7E5AD3841909B5D70073768F /* JNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNAppDelegate.m; sourceTree = "<group>"; };
+		7E5AD3871909B5D70073768F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E5AD3891909B5D70073768F /* JNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
+		7E5AD38A1909B5D70073768F /* JNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
+		7E5AD38C1909B5D70073768F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E5AD3921909B5D70073768F /* GoogleMapsStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5AD3931909B5D70073768F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E5AD39B1909B5D70073768F /* GoogleMapsStarterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleMapsStarterTests-Info.plist"; sourceTree = "<group>"; };
+		7E5AD39D1909B5D70073768F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E5AD39F1909B5D70073768F /* GoogleMapsStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsStarterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5AD36E1909B5D70073768F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD3771909B5D70073768F /* CoreGraphics.framework in Frameworks */,
+				7E5AD3791909B5D70073768F /* UIKit.framework in Frameworks */,
+				7E5AD3751909B5D70073768F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AD38F1909B5D70073768F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD3941909B5D70073768F /* XCTest.framework in Frameworks */,
+				7E5AD3961909B5D70073768F /* UIKit.framework in Frameworks */,
+				7E5AD3951909B5D70073768F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5AD3681909B5D70073768F = {
+			isa = PBXGroup;
+			children = (
+				7E5AD37A1909B5D70073768F /* GoogleMapsStarter */,
+				7E5AD3991909B5D70073768F /* GoogleMapsStarterTests */,
+				7E5AD3731909B5D70073768F /* Frameworks */,
+				7E5AD3721909B5D70073768F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5AD3721909B5D70073768F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD3711909B5D70073768F /* GoogleMapsStarter.app */,
+				7E5AD3921909B5D70073768F /* GoogleMapsStarterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E5AD3731909B5D70073768F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD3741909B5D70073768F /* Foundation.framework */,
+				7E5AD3761909B5D70073768F /* CoreGraphics.framework */,
+				7E5AD3781909B5D70073768F /* UIKit.framework */,
+				7E5AD3931909B5D70073768F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E5AD37A1909B5D70073768F /* GoogleMapsStarter */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD3831909B5D70073768F /* JNAppDelegate.h */,
+				7E5AD3841909B5D70073768F /* JNAppDelegate.m */,
+				7E5AD3861909B5D70073768F /* Main.storyboard */,
+				7E5AD3891909B5D70073768F /* JNViewController.h */,
+				7E5AD38A1909B5D70073768F /* JNViewController.m */,
+				7E5AD38C1909B5D70073768F /* Images.xcassets */,
+				7E5AD37B1909B5D70073768F /* Supporting Files */,
+			);
+			path = GoogleMapsStarter;
+			sourceTree = "<group>";
+		};
+		7E5AD37B1909B5D70073768F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD37C1909B5D70073768F /* GoogleMapsStarter-Info.plist */,
+				7E5AD37D1909B5D70073768F /* InfoPlist.strings */,
+				7E5AD3801909B5D70073768F /* main.m */,
+				7E5AD3821909B5D70073768F /* GoogleMapsStarter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E5AD3991909B5D70073768F /* GoogleMapsStarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD39F1909B5D70073768F /* GoogleMapsStarterTests.m */,
+				7E5AD39A1909B5D70073768F /* Supporting Files */,
+			);
+			path = GoogleMapsStarterTests;
+			sourceTree = "<group>";
+		};
+		7E5AD39A1909B5D70073768F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AD39B1909B5D70073768F /* GoogleMapsStarterTests-Info.plist */,
+				7E5AD39C1909B5D70073768F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5AD3701909B5D70073768F /* GoogleMapsStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AD3A31909B5D70073768F /* Build configuration list for PBXNativeTarget "GoogleMapsStarter" */;
+			buildPhases = (
+				7E5AD36D1909B5D70073768F /* Sources */,
+				7E5AD36E1909B5D70073768F /* Frameworks */,
+				7E5AD36F1909B5D70073768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapsStarter;
+			productName = GoogleMapsStarter;
+			productReference = 7E5AD3711909B5D70073768F /* GoogleMapsStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E5AD3911909B5D70073768F /* GoogleMapsStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AD3A61909B5D70073768F /* Build configuration list for PBXNativeTarget "GoogleMapsStarterTests" */;
+			buildPhases = (
+				7E5AD38E1909B5D70073768F /* Sources */,
+				7E5AD38F1909B5D70073768F /* Frameworks */,
+				7E5AD3901909B5D70073768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5AD3981909B5D70073768F /* PBXTargetDependency */,
+			);
+			name = GoogleMapsStarterTests;
+			productName = GoogleMapsStarterTests;
+			productReference = 7E5AD3921909B5D70073768F /* GoogleMapsStarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E5AD3691909B5D70073768F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JN;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					7E5AD3911909B5D70073768F = {
+						TestTargetID = 7E5AD3701909B5D70073768F;
+					};
+				};
+			};
+			buildConfigurationList = 7E5AD36C1909B5D70073768F /* Build configuration list for PBXProject "GoogleMapsStarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E5AD3681909B5D70073768F;
+			productRefGroup = 7E5AD3721909B5D70073768F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E5AD3701909B5D70073768F /* GoogleMapsStarter */,
+				7E5AD3911909B5D70073768F /* GoogleMapsStarterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5AD36F1909B5D70073768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD38D1909B5D70073768F /* Images.xcassets in Resources */,
+				7E5AD37F1909B5D70073768F /* InfoPlist.strings in Resources */,
+				7E5AD3881909B5D70073768F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AD3901909B5D70073768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD39E1909B5D70073768F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5AD36D1909B5D70073768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD3851909B5D70073768F /* JNAppDelegate.m in Sources */,
+				7E5AD38B1909B5D70073768F /* JNViewController.m in Sources */,
+				7E5AD3811909B5D70073768F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AD38E1909B5D70073768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD3A01909B5D70073768F /* GoogleMapsStarterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5AD3981909B5D70073768F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5AD3701909B5D70073768F /* GoogleMapsStarter */;
+			targetProxy = 7E5AD3971909B5D70073768F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E5AD37D1909B5D70073768F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5AD37E1909B5D70073768F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E5AD3861909B5D70073768F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5AD3871909B5D70073768F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E5AD39C1909B5D70073768F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5AD39D1909B5D70073768F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E5AD3A11909B5D70073768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E5AD3A21909B5D70073768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E5AD3A41909B5D70073768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMapsStarter/GoogleMapsStarter-Prefix.pch";
+				INFOPLIST_FILE = "GoogleMapsStarter/GoogleMapsStarter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E5AD3A51909B5D70073768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMapsStarter/GoogleMapsStarter-Prefix.pch";
+				INFOPLIST_FILE = "GoogleMapsStarter/GoogleMapsStarter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E5AD3A71909B5D70073768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleMapsStarter.app/GoogleMapsStarter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMapsStarter/GoogleMapsStarter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleMapsStarterTests/GoogleMapsStarterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E5AD3A81909B5D70073768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleMapsStarter.app/GoogleMapsStarter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMapsStarter/GoogleMapsStarter-Prefix.pch";
+				INFOPLIST_FILE = "GoogleMapsStarterTests/GoogleMapsStarterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5AD36C1909B5D70073768F /* Build configuration list for PBXProject "GoogleMapsStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AD3A11909B5D70073768F /* Debug */,
+				7E5AD3A21909B5D70073768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5AD3A31909B5D70073768F /* Build configuration list for PBXNativeTarget "GoogleMapsStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AD3A41909B5D70073768F /* Debug */,
+				7E5AD3A51909B5D70073768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E5AD3A61909B5D70073768F /* Build configuration list for PBXNativeTarget "GoogleMapsStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AD3A71909B5D70073768F /* Debug */,
+				7E5AD3A81909B5D70073768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E5AD3691909B5D70073768F /* Project object */;
+}
